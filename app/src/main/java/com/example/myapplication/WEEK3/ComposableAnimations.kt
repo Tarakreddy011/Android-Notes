@@ -67,8 +67,6 @@ fun AnimationScreen() {
                 .size((100 * scale).dp)
                 .alpha(alpha)
                 .clickable { isExpanded = !isExpanded }
-                .border(width = 2.dp, color = Color.Black, shape = CircleShape)
-                .clip(CircleShape),
             contentAlignment = Alignment.Center
         ) {
             Text(
