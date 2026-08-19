@@ -66,7 +66,7 @@ fun AnimationScreen() {
             modifier = Modifier
                 .size((100 * scale).dp)
                 .alpha(alpha)
-                .clickable { isExpanded = !isExpanded }
+                .clickable { isExpanded = !isExpanded },
             contentAlignment = Alignment.Center
         ) {
             Text(
